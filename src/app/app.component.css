@@ -107,6 +107,8 @@ body {
     font-size: 24px;
     color: #ff6a00;
     margin-bottom: 15px;
+    display:flex;
+    gap:20px;
   }
   
   .buy-now {
@@ -118,11 +120,27 @@ body {
     font-size: 16px;
     transition: background-color 0.3s ease;
     display:flex;
-    padding:10px 20px;
+    padding:5px 5px;
     align-items:center;
   }
   
   .buy-now:hover {
     background-color: #003bb5;
+  }
+
+  .footer{
+    width:1171px;
+height:437px;
+top:2269px;
+left:135px;
+  }
+
+  .content{
+    padding: 20px 60px;
+  }
+
+  .heading{
+    padding:10px;
+    font-weight: bold;
   }
 

@@ -1,5 +1,5 @@
 <html lang="en">
-<body>
+<body class="content" style="padding:20px 60px">
   <div class="header">
     <div class="container image-container w-50" >
         <span class="image-wrapper">
@@ -26,7 +26,7 @@
   </div>
 </div>
 
-<div>CASUAL SHOES</div>
+<div class="heading">CASUAL SHOES</div>
 
 <div class="casual-shoes">
   <div class="shoe-card" *ngFor="let image of shoes">
@@ -34,9 +34,26 @@
     <h3 class="text-start">{{image.header}}</h3>
     <p>{{image.text}}</p>
     <div class="price">{{image.price}} <span> <button class="buy-now"><img src="assets/images/shopping-cart.png.png"> BUY NOW</button></span></div>
+  </div>
+</div>
+
+<div class="heading">FORMAL SHOES</div>
+
+<div class="casual-shoes">
+  <div class="shoe-card" *ngFor="let image of shoes">
+    <img src="assets/images/black-shoe.png.png" alt="Nike Shoe">
+    <h3 class="text-start">{{image.header}}</h3>
+    <p>{{image.text}}</p>
+    <div class="price">{{image.price}} <span> <button class="buy-now"><img src="assets/images/shopping-cart.png.png"> BUY NOW</button></span></div>
    
   </div>
 
+</div>
+
+<div class="container image-container w-100">
+  <span class="image-wrapper">
+      <img class= "footer" src="assets/images/footer.png" alt="Penguin Image">
+  </span>
 </div>
 
 
